@@ -1,7 +1,7 @@
 import json
 
 # ---- LOAD MEMO ----
-with open("account_memo_v2.json", "r") as f:
+with open("../outputs/account_memo_v2.json", "r") as f:
     memo = json.load(f)
 
 print(memo["company_name"])
@@ -108,7 +108,7 @@ agent_spec = {
 
 
 # ---- SAVE AGENT SPEC ----
-with open("agent_spec_v2.json", "w") as f:
+with open("../outputs/agent_spec_v2.json", "w") as f:
     json.dump(agent_spec, f, indent=2)
 
 print("Agent spec v2 generated.")
