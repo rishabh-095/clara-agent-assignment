@@ -1,0 +1,49 @@
+{
+  "account_id": "acc_001",
+  "company_name": "Ben's Electric",
+  "business_hours": {
+    "days": "Mon-Fri",
+    "start_time": null,
+    "end_time": null,
+    "timezone": null
+  },
+  "office_address": null,
+  "services_supported": [
+    "electrical service calls",
+    "electrical repairs"
+  ],
+  "emergency_definition": [
+    "power outage",
+    "electrical fault"
+  ],
+  "emergency_routing_rules": {
+    "route_to": "on-call technician",
+    "order": null,
+    "fallback": null
+  },
+  "non_emergency_routing_rules": {
+    "after_hours_handling": "Emergency calls routed immediately"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "retry_attempts": null,
+    "failure_message": null
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [
+    "Timezone not specified",
+    "Transfer timeout not specified",
+    "Office address not specified"
+  ],
+  "notes": "Generated from demo transcript (exploratory stage)",
+  "pricing": {
+    "service_call_fee": 115,
+    "hourly_rate": 98
+  },
+  "after_hours": {
+    "emergency_supported": false
+  },
+  "after_hours_exception": "Property management client"
+}

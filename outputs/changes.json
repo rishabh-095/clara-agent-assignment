@@ -1,0 +1,78 @@
+[
+  {
+    "field": "company_name",
+    "old": "Ben's Electric",
+    "new": "Ben's Electric",
+    "reason": "Detected company name from onboarding transcript"
+  },
+  {
+    "field": "business_hours",
+    "old": {
+      "days": "Mon-Fri",
+      "start_time": null,
+      "end_time": null,
+      "timezone": null
+    },
+    "new": {
+      "days": "Mon-Fri",
+      "start_time": null,
+      "end_time": null,
+      "timezone": null
+    },
+    "reason": "Reset demo-stage business hours; not confirmed during onboarding"
+  },
+  {
+    "field": "business_hours.days",
+    "old": null,
+    "new": "Mon-Fri",
+    "reason": "Detected working days from onboarding transcript"
+  },
+  {
+    "field": "pricing.service_call_fee",
+    "old": 115,
+    "new": 115,
+    "reason": "Detected service call fee from onboarding"
+  },
+  {
+    "field": "pricing.hourly_rate",
+    "old": 98,
+    "new": 98,
+    "reason": "Detected hourly rate from onboarding transcript"
+  },
+  {
+    "field": "after_hours.emergency_supported",
+    "old": null,
+    "new": false,
+    "reason": "Detected no emergency policy"
+  },
+  {
+    "field": "services_supported",
+    "old": [
+      "electrical service calls",
+      "electrical repairs"
+    ],
+    "new": [
+      "electrical service calls",
+      "electrical repairs"
+    ],
+    "reason": "Updated service type based on onboarding call"
+  },
+  {
+    "field": "emergency_definition",
+    "old": [
+      "power outage",
+      "electrical fault"
+    ],
+    "new": [
+      "power outage",
+      "electrical fault"
+    ],
+    "reason": "Updated emergency definition for electrical services"
+  },
+  {
+    "field": "after_hours_exception",
+    "old": null,
+    "new": "Property management client",
+    "reason": "Detected after-hours exception client"
+  }
+]
