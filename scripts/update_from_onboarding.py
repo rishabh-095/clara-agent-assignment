@@ -8,10 +8,10 @@ if os.path.exists(memo_file):
     with open(memo_file, "r") as f:
         memo = json.load(f)
 else:
-    with open("../outputs/account_memo_v1.json", "r") as f:
+    with open("outputs/account_memo_v1.json", "r") as f:
         memo = json.load(f)
 
-with open("../outputs/onboarding_transcript.txt", "r") as f:
+with open("outputs/onboarding_transcript.txt", "r") as f:
     onboarding=f.read().lower()
 print("Transcript loaded successfully")
 
